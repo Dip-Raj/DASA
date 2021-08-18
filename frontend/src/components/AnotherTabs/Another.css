@@ -1,0 +1,40 @@
+/* .tab-list {  border-bottom: 1px solid #ccc;
+    padding-left: 0;
+  }
+    } */
+.another-tab-list-item {
+  /* display: inline-block; */
+  font-weight: 500;
+  list-style: none;
+  margin-bottom: 35px;
+  font-size: 13px;
+  cursor: pointer;
+
+  /* margin-bottom: -1px;
+    padding: 0.5rem 0.75rem; */
+}
+
+.another-tab-list-active {
+  text-decoration: underline;
+}
+/* .individual__tab__list {
+} */
+.another-tab-list {
+  text-align: left;
+}
+.another-tabs {
+  background-color: #e7e7e7;
+  padding: 50px 40px;
+}
+@media screen and (max-width: 767px) {
+  .another-tabs {
+    padding: 20px 15px;
+  }
+  .another-tab-list {
+    display: flex;
+    justify-content: space-between;
+  }
+  .another-tab-list-item {
+    margin-bottom: 20px;
+  }
+}

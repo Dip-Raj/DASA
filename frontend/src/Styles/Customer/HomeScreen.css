@@ -1,0 +1,24 @@
+.carousel__image {
+  height: 100vh;
+  /* when using background image we have to use background keyword where as when using just image we 
+    have to use object keyword */
+  object-fit: cover;
+  object-position: center;
+  /* position: relative; */
+  /* background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+  /* background-image: url(http://subtlepatterns.com/patterns/dark_embroidery.png); */
+}
+.carousel-button {
+  background-color: #b91321;
+  border: none;
+  color: white;
+  font-weight: 600;
+  height: 50px;
+  margin-bottom: 2em;
+  font-size: 20px;
+  letter-spacing: 2px;
+  width: 200px;
+}

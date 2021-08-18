@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.choose__size__container {
+  background-color: white;
+  width: 100%;
+  border-radius: 20px;
+  margin: auto auto;
+  padding: 10px 20px;
+}
+.choose__title {
+  color: black;
+  font-weight: bolder;
+  font-size: 25px;
+  letter-spacing: 4px;
+}
+.options__buttons {
+  /* border-radius: 20px; */
+  border: solid black 2px;
+  background-color: white;
+  height: 50px;
+  width: 50%;
+  margin: 10px 0;
+  font-weight: bolder;
+}
+.option__next__button {
+  border: solid white 2px;
+  color: white;
+  height: 50px;
+  width: 50%;
+  background-color: #b91321;
+
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.size__options__text {
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 500px) {
+  .choose__size__container {
+    width: 90%;
+  }
+  .options__buttons,
+  .option__next__button {
+    width: 90%;
+  }
+}
+.active___btn {
+  background-color: #e7e7e7;
+  font-weight: 800;
+}

@@ -1,0 +1,29 @@
+.order__success__container {
+  border: 2px dotted #b91321;
+
+  margin: 8px;
+  padding: 20px 70px;
+}
+.orderSuccessFlower {
+  height: auto;
+  width: 40%;
+  /* object-fit: contain; */
+}
+.thank__you__title__order {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 567px) {
+  .orderSuccessFlower {
+    width: 100%;
+    /* object-fit: contain; */
+  }
+  .order__success__container {
+    padding: 20px 20px;
+  }
+  .thank__you__title__order {
+    font-size: 30px;
+  }
+}

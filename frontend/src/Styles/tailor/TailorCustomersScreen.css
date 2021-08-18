@@ -1,0 +1,26 @@
+.tailor__customer {
+  padding: 5px;
+}
+.tailor__customer__title {
+  text-align: left;
+}
+
+#tailor__customer__table {
+  background-color: #fff;
+}
+.table__location {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #854fff;
+}
+@media screen and (max-width: 767px) {
+  table#tailor__customer__table td:nth-child(3),
+  table#tailor__customer__table td:nth-child(4) {
+    display: none;
+  }
+  table#tailor__customer__table th:nth-child(3),
+  table#tailor__customer__table th:nth-child(4) {
+    display: none;
+  }
+}

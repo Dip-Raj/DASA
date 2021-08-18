@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.tailor__signIn,
+.tailor__register {
+  text-align: left;
+}
+.tailor__signIn__container,
+.tailor__register__container {
+  border: 2px dotted #b91321;
+
+  margin: 8px;
+  padding: 20px 70px;
+}
+.tailor__signin__inputs,
+.tailor__register__inputs {
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  font-size: smaller;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+form,
+p {
+  font-size: 14px;
+}
+
+.tailor__signin__inputs > input {
+  border: none;
+  width: 100%;
+  height: 45px;
+  margin: 15px 0 10px 0 !important;
+}
+.tailor__register__inputs > input {
+  border: none;
+  width: 100%;
+  height: 45px;
+  margin: 15px 0 10px 0 !important;
+}
+.tailor__register__inputs > label > select {
+  border: none;
+  width: 100%;
+  height: 45px;
+  margin: 15px 0 10px 0 !important;
+}
+.tailor__form__footer {
+  display: flex;
+  flex-direction: row;
+}
+.tailor__signIn__button,
+.tailor__register__button {
+  border: none;
+  width: 180px;
+  height: 45px;
+  background-color: #b91321;
+  color: white;
+}
+.forgot__password {
+  cursor: pointer;
+}
+@media screen and (max-width: 567px) {
+  .tailor__signIn__container,
+  .tailor__register__container {
+    padding: 15px 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .tailor__signIn,
+  .tailor__register {
+    padding: 20px 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 25px;
+    margin-top: 5px !important;
+  }
+}
+
+.tailor__signIn,
+.tailor__register {
+  text-align: left;
+  margin: 50px auto;
+}
+/* 
+.tailor__registration__thankYou {
+  background-color: #e7e7e7;
+  margin: 8px;
+  padding: 20px 70px;
+} */
+.thank__you__title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.thank__you__description {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}

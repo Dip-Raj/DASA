@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.your__orders__table {
+  border: 2px solid #b91321;
+}
+
+.your__orders__container {
+  border: 2px dotted #b91321;
+  font-family: "DM Sans", sans-serif;
+
+  margin: 8px;
+  padding: 20px 70px;
+}
+
+.track__order__container {
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+@media screen and (max-width: 567px) {
+  .your__orders__container {
+    padding: 20px 10px;
+  }
+  .track__order__container {
+    width: 100%;
+  }
+}
+.order__detail__row {
+  display: flex;
+  border: 1px solid #000000;
+  /* margin: 5px 0; */
+  text-align: left;
+}
+.order__detail__left {
+  width: 50%;
+  padding-left: 10px;
+}
+.order__detail__right {
+  width: 50%;
+  padding-left: 10px;
+}

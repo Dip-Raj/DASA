@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+.tailor__sales {
+  position: relative;
+}
+.tailor__products__heading {
+  text-align: left;
+}
+.dashBoard__card__container {
+  background-color: white;
+  border-radius: 8px;
+  text-align: left;
+  padding: 20px 25px !important;
+  margin: 10px 0 !important;
+}
+
+.dashBoardCard__title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.dashBoardCard__amount {
+  font-family: "DM Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 7px;
+  margin-bottom: 50px;
+}
+.dashBoard__status__amount {
+  color: rgba(30, 229, 215, 1);
+}
+.dashBoard__status__text {
+  color: rgba(148, 137, 137, 1);
+}
+/* Styling the store Statistics element */
+.store__statistics__element {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.store__statistics__data {
+  text-align: left;
+  /* background-color: red; */
+}
+.store__statistic__design {
+  text-align: right;
+}
+.store__statistics__container {
+  /* background-color: blanchedalmond; */
+  padding: 10px;
+  border-radius: 5px;
+}
+.theData__title {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.46);
+  font-weight: 600;
+}
+.theData__amount {
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+}
+/* Styling the top Products container 👇 */
+.top__products__element {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem 0;
+  line-height: 1.2;
+}
+.first__part {
+  display: flex;
+}
+.second__part {
+  text-align: right;
+}
+.top__product__image__container {
+  height: 50px;
+  width: 50px;
+}
+.top__product__image {
+  width: 100%;
+  height: auto;
+}
+.title__price {
+  padding-left: 17px;
+}
+.top__product__title,
+.total__price {
+  font-size: 0.9375rem;
+  color: #364a63;
+  margin-bottom: 0.25rem;
+  font-family: "DM Sans", sans-serif;
+}
+.top__product__price,
+.total__sold {
+  font-size: 0.8125rem;
+  color: #8094ae;
+  margin-bottom: 1px;
+  font-family: "DM Sans", sans-serif;
+}
