@@ -10,13 +10,13 @@ import mysql from "mysql";
 //   database: "heroku_47127d54d2fe52b",
 //   multipleStatements: true,
 // });
-// const db = mysql.createConnection({
-//   host: "localhost",
-//   user: "root",
-//   password: "root",
-//   database: "dasadb",
-//   multipleStatements: true,
-// });
+const db = mysql.createConnection({
+  host: "qao3ibsa7hhgecbv.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  user: "qzrzyozkpd5jpkje",
+  password: "e54goc33haxx6zyc",
+  database: "b9k1whctqj9c8e5j",
+  multipleStatements: true,
+});
 
 const db = mysql.createConnection(process.env.JAWSDB_URL);
 // Connect
