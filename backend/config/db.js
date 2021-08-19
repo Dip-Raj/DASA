@@ -18,7 +18,7 @@ const db = mysql.createConnection({
   multipleStatements: true,
 });
 
-const db = mysql.createConnection(process.env.JAWSDB_URL);
+// const db = mysql.createConnection(process.env.JAWSDB_URL);
 // Connect
 db.connect((err) => {
   if (err) {
